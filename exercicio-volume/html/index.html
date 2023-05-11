@@ -1,8 +1,18 @@
 <html>
-  <head>
-    <title>Curso de Docker</title>
-  </head>
-  <body>
-    <h1>Curso de Docker</h1>
-  </body>
+
+<head>
+  <title>Curso de Docker</title>
+</head>
+
+<body>
+  <h1>Curso de Docker</h1>
+  <p>
+    Comando utilizado para apontar o diretório do arquivo index.html
+    <code>
+      docker container run -p 8080:80 -v $pwd/html:/usr/share/nginx/html nginx
+    </code>
+  </p>
+  
+</body>
+
 </html>
